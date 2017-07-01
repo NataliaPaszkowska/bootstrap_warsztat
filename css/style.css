@@ -1,0 +1,6 @@
+.container-fluid {
+	height: 500px;
+	background-image: url("pictures_on_the_wall.jpg");
+	background-size: cover;
+	background-position: center;
+}
