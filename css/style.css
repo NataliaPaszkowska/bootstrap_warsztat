@@ -12,3 +12,39 @@
 */
 
 
+/* main style start */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Roboto Slab', serif;
+	color: #777;
+}
+
+#main-nav {
+	background-color: transparent;
+	border: 0;
+}
+
+#main-nav a.navbar-brand {
+	font-size: 2em;
+	font-family: 'Droid Serif', sans-serif;
+	text-transform: none;
+}
+
+#main-nav a {
+	color: blue;
+	text-transform: uppercase;
+	font-family: 'Droid Serif', sans-serif;
+}
+
+#main-nav a:hover {
+	color: #0ed8d6;
+	
+}
+
+
+/* main style end */
