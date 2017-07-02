@@ -264,12 +264,41 @@ a.btn-blue:hover, .btn-blue:hover {
 	color: white;
 	border: 1px solid #0ed8d6;
 }
-
-
-
 /* sekcja team end */
 
+/* sekcja contact start*/
 
+#contact {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url;
+	background-size: cover;
+	background-position: center;
+}
+
+#contact h2, #contact p {
+	color: #fff;
+}
+
+#contact input:not([type='submit']), contact textarea {
+	width: 100%;
+	border: 0px solid;
+}
+
+#contact input, #contact textarea {
+	text-transform: uppercase;
+	padding: 15px;
+	font-family: sans-serif;
+	border-radius: 5px;
+}
+
+#contact input:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+#contact input[type='submit'] {
+	margin-top: 30px;
+}
+
+/* sekcja cact end*/
 
 
 
