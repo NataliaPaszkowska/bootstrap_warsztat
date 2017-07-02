@@ -30,6 +30,7 @@ h1 {
 
 h3 {
 	font-size: 1.2em;
+	color: black;
 }
 
 section {
@@ -43,11 +44,12 @@ section header {
 section .section-heading {
 	text-transform: uppercase;
 	margin-bottom: 25px;
+	color: black;
 }
 
 section .section-description {
 	font-family: 'Droid Serif', sans-serif;
-	color: #777;
+	color: black;
 }
 
 a.btn-blue, .btn-blue {
