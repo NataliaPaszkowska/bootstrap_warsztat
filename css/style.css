@@ -24,6 +24,22 @@ body {
 	color: #777;
 }
 
+a.btn-blue, .btn-blue {
+	background-color: aqua;
+	border: 1px solid aqua;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	transition: all .3s;
+	position: 15px 30px;
+}
+
+a.btn-blue:hover, .btn-blue:hover {
+	background-color: rebeccapurple;
+	border: 1px solid red;
+}
+
+
 #main-nav {
 	background-color: transparent;
 	border: 0;
@@ -32,18 +48,37 @@ body {
 #main-nav a.navbar-brand {
 	font-size: 2em;
 	font-family: 'Droid Serif', sans-serif;
-	text-transform: none;
+	text-transform: inherit;
 }
 
 #main-nav a {
-	color: blue;
-	text-transform: uppercase;
-	font-family: 'Droid Serif', sans-serif;
+	color: #fff;
+	text-transform: uppercase;	font-family: 'Droid Serif', sans-serif;
 }
-
 #main-nav a:hover {
 	color: #0ed8d6;
-	
+}
+
+#main-header {
+	height: 100vh;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(pictures_on_the_wall.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+#main-header .header-caption {
+	color: #fff;
+	width: 1000px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	left: 15%;	
+}
+
+#main-header .header-caption h1 {
+	text-transform: uppercase;
 }
 
 
