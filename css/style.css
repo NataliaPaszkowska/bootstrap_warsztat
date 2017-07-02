@@ -24,6 +24,32 @@ body {
 	color: #777;
 }
 
+h1 {
+	font-size: 4em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+section {
+	padding: 60px 0;
+}
+
+section header {
+	margin-bottom: 70px;
+}
+
+section .section-heading {
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+section .section-description {
+	font-family: 'Droid Serif', sans-serif;
+	color: #777;
+}
+
 a.btn-blue, .btn-blue {
 	background-color: aqua;
 	border: 1px solid aqua;
@@ -83,3 +109,61 @@ a.btn-blue:hover, .btn-blue:hover {
 
 
 /* main style end */
+
+/* sekcja services */
+#services .fa {
+	font-size: 3em;
+	height: 80px;
+	width: 80px;
+	line-height: 80px;
+	border: 1px solid #0ed8d6;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #0ed8d6;
+	transition: all .3s;
+}
+
+#services .fa:hover {
+	color: #0ed8d6;
+	background-color: #fff;
+	transform: rotate(360deg);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
