@@ -246,14 +246,26 @@ a.btn-blue:hover, .btn-blue:hover {
 }
 
 .znaczki i {
-	height: 35px;
-	width: 35px;
-	font-size: 1.5em;
-	background-color: black;
-	padding: 5px;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	line-height: 40px;
+	background-color: #222;
+	color: white;
+	border: 1px solid #222;
 	border-radius: 50%;
-	color: #fff;
+	font-size: 1.8em;
+	transition: all .3s;
+	
 }
+
+.znaczki i:hover {
+	background-color: #0ed8d6;
+	color: white;
+	border: 1px solid #0ed8d6;
+}
+
+
 
 /* sekcja team end */
 
