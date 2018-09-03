@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+   
+    
+}
+p{
+    font-style: italic;
+}
+
+h1{
+    font-size: 4em;
+    
+}
+
+h3{
+    font-size: 1.2em;
+    
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+section{
+    padding: 60px 0;
+}
+
+section header{
+    margin-bottom: 70px;
+}
+
+
+section .section-heading{
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+section. section-description{
+    color: #777;
+    font-family: 'Droid Serif', sans-serif;
+}
+
+a.btn-blue, .btn-blue{
+    background-color:#0ed8d6;
+    border: 1px solid #0ed8d6;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    transition: all .3s;
+    padding: 15px 30px;
+}
+
+a.btn-blue:hover, .btn-blue:hover{
+    background-color: #fff;
+    border: 1px solid #0ed8d6;
+    color: #0ed8d6;
+    
+}
+
+
+
+/*main styles end*/
+
+/*main styles nav*/
+
+#main-nav{
+    background-color: transparent;
+    border: 0;
+}
+
+#main-nav a.navbar-brand{
+   font-family: 'Droid Serif', sans-serif;
+    font-size: 2em;
+    text-transform: none;
+    font-style:italic;
+}
+
+#main-nav a{
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main-nav a:hover{
+    color: cadetblue;
+}
+
+#main-nav.scroll{
+    background-color: rgba(14, 216, 214, 0.85);
+}
+
+#main-nav.scroll a{
+    color: #fff;
+}
+
+#main-nav.scroll a:hover{
+    color: #777;
+}
+/*main header styles start*/
+
+#main-header{
+    height:100vh;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/header/pictures_on_the_wall.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#main-header .header-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right:0;
+    margin: auto;
+    text-align: center;
+}
+
+#main-header .header-caption h1{
+    color: #fff;
+    margin: 45px 0;
+}
+
+#main-header .header-caption h2{
+    color: #fff;
+    font-family: 'Droid Serif', sans-serif;
+    font-style: italic;
+}
+
+/*sekcja nav stop*/
+
+/*sekcja services start*/
+
+#services .fa{
+    font-size: 3em;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border: 1px solid #0ed8d6;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #0ed8d6;
+    transition: all .3s;
+}
+
+#services .fa:hover{
+    color: #0ed8d6;
+    color: #fff;
+    transform: rotate(360deg);
+}
+
+
+/*sekcja services end*/
+
+/*sekcja portfolio start*/
+
+#portfolio{
+    background-color: #f7f7f7;
+}
+
+#portfolio .single-portfolio-item{
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+#portfolio .portfolio-image-container{
+    height: 300px;
+    overflow: hidden;
+}
+
+#portfolio .single-portfolio-item .portfolio-image{
+    background-position: center;
+    background-size:cover;
+    height: 100%;
+    position: relative;
+    transition: .3s; 
+}
+
+#portfolio .single-portfolio-item .portfolio-image:hover{
+    transform: scale(1.2);
+}
+
+#portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask{
+    background-color: rgba(14, 216, 214, 0.85);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+#portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask:hover{
+    opacity: 1;
+}
+
+#portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask .fa{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 3em;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+#portfolio .single-portfolio-item h1{
+    padding-top: 10px;
+}
+#portfolio .single-portfolio-item p{
+    padding-bottom: 25px;
+    
+}
+
+#portfolio-item-1{
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+#portfolio-item-2{
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+
+#portfolio-item-3{
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+
+#portfolio-item-4{
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+
+#portfolio-item-5{
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+
+#portfolio-item-6{
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+
+/*sekcja portfolio end*/
+
+/*sekcja team start*/
+
+#team .team-caption{
+    margin-bottom: 40px;
+    margin-top: 50px;
+    
+}
+
+
+#team .team .col-sm-4 img{
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+}
+
+
+#team .team-description{
+    
+    padding: 30px 50px 0 50px;
+}
+
+#team .icons .fa{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #222;
+    color: #fff;
+    margin-left: 7px;
+    font-size: 1.5em;
+    transition: all .3s;
+}
+
+/*
+#team .icons a{
+    text-decoration: none;
+}
+*/
+
+#team .icons .fa:hover{
+    background-color:#0ed8d6;
+    
+    cursor:pointer;
+}
+
+/*sekcja team stop */
+
+
+/*sekcja contact start*/
+
+#contact{
+    height:95vh;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../img/footer/world-map.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#contact h2, #contact p{
+    color: #fff;    
+}
+  
+#contact input:not([type='submit']), #contact textarea{
+    width: 100%;
+    border: 0px solid;
+}
+
+
+#contact input, #contact textarea{
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+
+
+#contact input:not(:last-child){
+    margin-bottom: 30px;
+}
+
+#contact input[type='submit']{
+    margin-top: 30px;
+}

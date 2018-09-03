@@ -72,7 +72,7 @@ a.btn-blue:hover, .btn-blue:hover {
 
 
 #main-nav {
-	background-color: transparent;
+	background-color: palevioletred;
 	border: 0;
 }
 
@@ -87,7 +87,7 @@ a.btn-blue:hover, .btn-blue:hover {
 	text-transform: uppercase;	font-family: 'Droid Serif', sans-serif;
 }
 #main-nav a:hover {
-	color: #0ed8d6;
+	color: cadetblue;
 }
 
 #main-nav.scroll {
